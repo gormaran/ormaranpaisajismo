@@ -513,6 +513,10 @@ textarea:hover {
   .OP_logo_negro_TP {
     max-width: 250px;
   }
+  .CTA-hablamos button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
 }
 
 /* Styles for screens larger than 1024px */
