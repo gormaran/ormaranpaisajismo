@@ -1,0 +1,517 @@
+h1,
+h2,
+h3,
+a,
+p,
+form,
+footer {
+  font-family: sans-serif;
+}
+
+/*****************************************/
+/* BODY */
+/****************************************/
+body {
+  text-align: justify;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*****************************************/
+/* HEADER */
+/****************************************/
+
+.OP_logo_negro_TP {
+  width: 175px;
+  height: 175px;
+}
+
+/*****************************************/
+/* NAVIGATION */
+/****************************************/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 25px;
+  width: 100%;
+  padding: 15px 0;
+  border-top: 3px solid #c3ceab;
+}
+
+nav a {
+  flex: 1;
+  margin: 0 100px;
+  font-weight: 250;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:link {
+  color: black;
+}
+
+nav a:visited {
+  color: grey;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #c3ceab;
+}
+
+nav a:active {
+  color: #5d6b3f;
+}
+
+/*****************************************/
+/* NAVIGATION - dropdown bar */
+/****************************************/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  text-align: justify;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  display: inline-block;
+}
+
+/*****************************************/
+/* MAIN */
+/****************************************/
+
+main {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: #c3ceab;
+  border-radius: 15px;
+}
+
+p {
+  line-height: 2;
+  margin: 20px 0;
+  text-align: justify;
+}
+
+/*****************************************/
+/* Gallery Carousel */
+/****************************************/
+
+.gallery-carousel {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-wrapper {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-wrapper img {
+  flex-shrink: 0;
+  max-width: 450px;
+  height: 350px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.prev-button,
+.next-button {
+  background-color: #fff;
+  border: none;
+  color: #535353;
+  font-size: 50px;
+  margin: 0 10px;
+  outline: none;
+  padding: 0;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.prev-button:hover,
+.next-button:hover {
+  color: #000;
+}
+
+/*****************************************/
+/* CTA BUTTON -º1 - ¿Háblamos?/
+/****************************************/
+.CTA-hablamos button {
+  border: none;
+  border-radius: 300px;
+  width: 15%;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 75px;
+  padding: 10px 0px;
+  background-color: rgb(0, 0, 0);
+}
+
+.CTA-hablamos button a {
+  background: none;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.CTA-hablamos button:hover {
+  background: #9baa7b98;
+}
+
+.CTA-hablamos button a:hover {
+  color: rgb(0, 0, 0);
+}
+
+/*****************************************/
+/* SECTIONS */
+/****************************************/
+/*****************************************/
+/* 1-Servicios */
+/****************************************/
+.servicios-contenido {
+  display: flex;
+}
+
+.servicios-item {
+  margin-right: 15px;
+  position: relative;
+}
+
+.servicios-item:last-child {
+  margin-right: 0;
+}
+
+.servicios-titulo {
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.servicios-costes {
+  position: absolute;
+  top: 58.5%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.859);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.servicios-contenido img {
+  max-width: 356px;
+  height: 300px;
+  border-radius: 15px;
+  transition: transform 0.2s;
+  position: relative;
+}
+
+.servicios-contenido img:hover {
+  transform: scale(1.1);
+}
+
+/*****************************************/
+/* Solicita una estimación gratuita - form */
+/****************************************/
+form {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  list-style: none;
+  padding-bottom: 15px;
+  margin-top: 50px;
+  border: 2px solid #c3ceab;
+}
+
+form input {
+  width: 35%;
+  height: 30px;
+  border: 1px solid #c3ceab;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  cursor: text;
+}
+
+form input:hover {
+  background: #5d6b3f1e;
+}
+
+textarea {
+  width: 35%;
+  height: 100px;
+  border: 1px solid #c3ceab;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  cursor: text;
+}
+
+textarea:hover {
+  background: #5d6b3f1e;
+}
+
+/*****************************************/
+/* CTA BUTTON -º2 Enviar/
+/****************************************/
+
+.CTA-submit button {
+  border: none;
+  border-radius: 300px;
+  width: 15%;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px 0px;
+  color: #ffffff;
+  background: rgb(12, 12, 12);
+}
+
+.CTA-submit button a {
+  background: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.CTA-submit button:hover {
+  background: #9baa7b98;
+}
+
+.CTA-submit button a:hover {
+  color: rgb(0, 0, 0);
+}
+
+/*****************************************/
+/* 2- Testimonios */
+/****************************************/
+#testimonios h2 {
+  margin-top: 75px;
+}
+
+.testimony-carousel {
+  width: 100%;
+  overflow: hidden;
+}
+
+.testimony-carousel-wrapper {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.testimony-carousel-wrapper img {
+  flex-shrink: 0;
+  max-width: 200px;
+  height: 200px;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+.testimony-item {
+  width: 100%;
+  margin-right: 50px;
+}
+
+.testimony-text {
+  display: flex;
+  width: 280px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  text-align: justify;
+}
+
+.client-name {
+  text-align: center;
+}
+
+.testimony-nav-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; /* Position the arrows absolutely */
+  top: 87%; /* Center them vertically */
+  transform: translateY(-50%);
+  width: 100%; /* Set full width for arrows container */
+}
+
+.testimony-prev-button,
+.testimony-next-button {
+  background-color: #ffffff00;
+  border: none;
+  color: #535353;
+  font-size: 100px; /* increase the font size to make them bigger */
+  outline: none;
+  padding: 0;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+  position: absolute; /* position them absolutely */
+}
+
+.testimony-prev-button {
+  left: -60px;
+}
+
+.testimony-next-button {
+  right: 450px;
+}
+
+/*****************************************/
+/* Floating Instagram Button*/
+/****************************************/
+.floating-container {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.floating-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f3f3f3;
+  color: #000;
+  font-size: 30px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  z-index: 999;
+}
+
+.floating-button i {
+  margin-left: 2px;
+}
+
+.instagram-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 35%;
+}
+
+/*****************************************/
+/* FOOTER */
+/****************************************/
+.footer-copywright {
+  font-size: 12px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+/**/
+/* Styles for screens smaller than 768px */
+@media only screen and (max-width: 767px) {
+  .container {
+    padding: 0 10px;
+  }
+  .OP_logo_negro_TP {
+    max-width: 200px;
+  }
+  nav {
+    flex-wrap: wrap;
+  }
+  nav a {
+    width: 100%;
+  }
+  .dropdown-content {
+    position: static;
+    display: none;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .servicios-item {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .testimony-item {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .testimony-carousel-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* Styles for screens between 768px and 1024px */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    padding: 0 20px;
+  }
+  .OP_logo_negro_TP {
+    max-width: 250px;
+  }
+}
+
+/* Styles for screens larger than 1024px */
+@media only screen and (min-width: 1025px) {
+  .OP_logo_negro_TP {
+    max-width: 300px;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+  }
+  .dropdown-content {
+    position: absolute;
+    z-index: 1;
+  }
+  .servicios-item {
+    width: 33.33%;
+    margin-bottom: 0;
+  }
+  .testimony-item {
+    width: 33.33%;
+    margin-bottom: 0;
+    text-align: left;
+  }
+  .testimony-carousel-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
