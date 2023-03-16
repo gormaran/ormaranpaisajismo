@@ -438,54 +438,69 @@ textarea:hover {
 }
 
 /**/
-/* Styles for screens with a max-width of 480px (smartphones and smaller) */
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
 @media (max-width: 480px) {
   /* Adjust layout and styling as needed */
   .header img {
-    max-width: 200px;
-    margin-bottom: 10px;
+    max-width: 100%;
+    margin-bottom: 5%;
   }
 
   .navbar a {
-    font-size: 18px;
-  }
-
-  .banner h2 {
-    font-size: 24px;
+    font-size: 3.75%;
   }
 
   .gallery-carousel {
-    margin-top: 20px;
+    margin-top: 3%;
   }
 
   .gallery-carousel img {
-    margin: 0 5px;
+    margin: 0 1%;
   }
 
   .CTA-hablamos button {
-    font-size: 18px;
-    padding: 10px;
+    font-size: 3.75%;
+    padding: 2%;
   }
 
   .contacto-form input,
   .contacto-form textarea {
-    font-size: 14px;
+    font-size: 2.5%;
   }
 
   .contacto-form button {
-    margin-top: 10px;
-    font-size: 18px;
-    padding: 10px;
+    margin-top: 3%;
+    font-size: 3.75%;
+    padding: 2%;
   }
 }
 
 /* Styles for screens smaller than 768px */
 @media only screen and (max-width: 767px) {
   .container {
-    padding: 0 10px;
+    padding: 0 2%;
   }
   .OP_logo_negro_TP {
-    max-width: 200px;
+    max-width: 25%;
   }
   .header {
     display: flex;
@@ -495,9 +510,9 @@ textarea:hover {
 
   .header img {
     width: 100%;
-    max-width: 300px;
+    max-width: 75%;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 5%;
   }
   .navbar ul {
     flex-direction: column;
@@ -505,11 +520,11 @@ textarea:hover {
   }
 
   .navbar li {
-    margin: 10px 0;
+    margin: 5% 0;
   }
 
   .navbar a {
-    font-size: 20px;
+    font-size: 5%;
   }
 
   nav {
@@ -519,8 +534,8 @@ textarea:hover {
     width: 100%;
   }
   .nav-buttons button {
-    font-size: 1rem;
-    padding: 0.5rem;
+    font-size: 1.25rem;
+    padding: 0.625rem;
   }
   .dropdown-content {
     position: static;
@@ -530,11 +545,11 @@ textarea:hover {
     display: block;
   }
   .banner {
-    height: 400px;
+    height: 33.33%;
   }
 
   .banner h2 {
-    font-size: 36px;
+    font-size: 5.625%;
   }
 
   .carousel-wrapper {
@@ -546,7 +561,7 @@ textarea:hover {
   .carousel-wrapper img {
     width: 100%;
     height: auto;
-    margin-right: 10px;
+    margin-right: 1%;
   }
   .gallery-carousel {
     width: 100%;
@@ -558,8 +573,8 @@ textarea:hover {
   }
 
   .CTA-hablamos button {
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    padding: 0.625rem 1.25rem;
   }
 
   .contacto-form {
@@ -573,7 +588,7 @@ textarea:hover {
 
   .contacto-form button {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 5%;
   }
 
   .servicios-contenido {
@@ -586,13 +601,13 @@ textarea:hover {
   .servicios-item {
     width: 100%;
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 5%;
   }
 
   /*.servicios-item {
     width: 30%;
-    margin-bottom: 2em;
-  }*/
+    margin-bottom
+    }*/
   .testimony-item {
     width: 100%;
     margin: 0 auto;
@@ -644,4 +659,3 @@ textarea:hover {
     justify-content: space-between;
   }
 }
-
