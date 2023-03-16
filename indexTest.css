@@ -518,6 +518,10 @@ textarea:hover {
   nav a {
     width: 100%;
   }
+  .nav-buttons button {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
   .dropdown-content {
     position: static;
     display: none;
@@ -554,8 +558,8 @@ textarea:hover {
   }
 
   .CTA-hablamos button {
-    font-size: 24px;
-    padding: 10px 20px;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
   }
 
   .contacto-form {
