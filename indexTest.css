@@ -477,6 +477,19 @@ textarea:hover {
   }
 }
 
+/* Styles for screens smaller than 768px */
+/* Servicios Contenido section */
+@media screen and (max-width: 768px) {
+  .servicios-contenido {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicios-item {
+    width: 100%;
+  }
+}
+
 /* Styles for screens between 768px and 1024px */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .container {
