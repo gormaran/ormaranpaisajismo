@@ -129,7 +129,7 @@ p {
 /****************************************/
 
 .gallery-carousel {
-  width: 100%;
+  width: 75%;
   overflow: hidden;
 }
 
@@ -140,7 +140,7 @@ p {
 
 .carousel-wrapper img {
   flex-shrink: 0;
-  max-width: 450px;
+  max-width: 350px;
   height: 350px;
   margin: 10px;
   border-radius: 15px;
