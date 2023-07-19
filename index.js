@@ -6,7 +6,7 @@ const prevButton = document.querySelector(".prev-button");
 const nextButton = document.querySelector(".next-button");
 const carouselWrapper = document.querySelector(".carousel-wrapper");
 const images = document.querySelectorAll(".carousel-wrapper img");
-const imageWidth = images[0].offsetWidth + 20; // Include margin
+const imageWidth = images[0].offsetWidth + 10; // Include margin
 const visibleImages = Math.floor(galleryCarousel.offsetWidth / imageWidth);
 
 let currentIndex = 0;
